@@ -3,17 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <script src="main.js"></script>
+    <script src="main-live.js"></script>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <hr/>
-    <div id="display-element"></div>
-    <form>
-      <input id="user-input" type="text">
-      <!-- How do you get this input sent to the pigLatin() function? -->
-      <button onclick="pigLatin()">Translate</button>
-    </form>  
-    <hr/>
+    <div class="biggestDiv">
+      <h1>Translate a Word to 🐷 Latin!</h1>
+      <hr/>
+        <form action="" method="GET">
+          <input id="user-input" type="text" placeholder="Enter word here!">
+          <!-- How do you get this input sent to the pigLatin() function? -->
+          <div id="pigLatin" class="output">Your Translated Text will Show Here!</div>
+          <button type="button" class="submitButton" onclick="pigLatin()">Translate</button>
+          <button type="reset" class="resetButton" onclick="clearDisplay()">Reset</button>
+        </form>  
+      
+      <hr/>
+    </div>
   </body>
 </html>

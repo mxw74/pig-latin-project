@@ -8,7 +8,7 @@
 
 ### Today's Checklist
 
-1. Fork and clone [Pig Latin Repo](https://github.com/AustinCodingAcademy/JS211_PigLatinProject.git)
+1. Fork and clone [Pig Latin Repo](https://github.com/AustinCodingAcademy/JS211_PigLatinProject.=git)
 1. Ensure you have installed all dependencies/packages: `npm i`
 1. Look at the Unit Test, see what is being called, passed as input arguments, and what the expected results are.
 1. Ensure you know how to run the unit test:
